@@ -1,17 +1,36 @@
-Projeto backend para Widgets
+#Projeto backend para [Feedget](https://github.com/arthurlozano/nlw-return-impulse-web "Feedget")
+Este projeto pode ser acessado através do link: https://feedget-example.vercel.app/
+### Este projeto usa:
 
-Tecnologias:
- - SQLite
+ - PostgreSQL
  - Prisma
  - NodeMailer (mailtrap.io)
  - Jest
  - Spies (jest)
- 
 
- Conceitos:
-  - SOLID
-    => Single Responsibility Principles: Cada classe deve ter uma responsabilidade única.
-    => Open/Closed Principles: As classes da nossa aplicação devem ser abertas para extensão mas fechadas para modificação.
-    => Liskov Substitution Principles: Nós devemos poder substituir uma classe pai por uma herança dela e tudo continuar funcionando.
-    => Interface Segregation Principles: implementar funções que são somente as necessárias nas classes.
-    => Dependency Inversion Principles
+Conceitos:
+- SOLID
+ * Single Responsibility Principles
+  * Open/Closed Principles
+  * Liskov Substitution Principles
+  * Interface Segregation Principles
+  * Dependency Inversion Principles
+
+# [Feedget (web)](https://github.com/arthurlozano/nlw-return-impulse-web "Feedget")
+**Widget de Feedbacks**
+*Este projeto foi desenvolvido na semana **NLW-Return** na trilha **Impulse** *      
+
+![](https://i.ibb.co/NpH15sC/Feedget-modes.png)
+
+-------------
+###Para fazer:
+
+- [x] Modo Light/Dark automático
+- [x] Print somente do conteúdo (não mostrar o Feedget no print para não atrapalhar)
+- [ ] Melhorar características da funcionalidade de envio de e-mail
+    - [x] Limitar tamanho da imagem no corpo do e-mail
+	- [ ] Adicionar link para visualizar imagem em tela cheia
+	- [ ] Melhorar HTML/CSS do email
+	- [ ] Usar um serviço de email no backend (Atualmente uso mailtrap.io)
+- [ ] Dashboard de feedbacks
+ 	- [ ] Implementar autenticação
